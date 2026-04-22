@@ -14,28 +14,48 @@
             text-align: center;
         }
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 40px;
+            font-size: 2.8rem;
+            margin-bottom: 20px;
             text-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .header-actions {
+            margin-bottom: 40px;
+        }
+        .download-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.2s;
+            display: inline-block;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .download-btn:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
         }
         .game-grid {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 25px;
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
         }
         .game-card {
             background-color: #2a2a40;
             border: 2px solid #3f3f5a;
             border-radius: 12px;
-            padding: 30px 20px;
-            width: 200px;
+            padding: 20px 15px;
+            width: 220px;
             transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
             display: flex;
             align-items: center;
             justify-content: center;
+            text-align: center;
         }
         .game-card:hover {
             transform: translateY(-8px);
@@ -49,6 +69,9 @@
             font-weight: bold;
             width: 100%;
             height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .game-card:hover a {
             color: #a3a3ff;
@@ -59,26 +82,31 @@
 
     <h1>My HTML5 Game Collection</h1>
     
+    <div class="header-actions">
+        <a href="all_games.zip" download class="download-btn">⬇ Download All Games</a>
+    </div>
+    
     <div class="game-grid">
-        <div class="game-card">
-            <a href="War%20The%20Knights%20(2).html">War The Knights</a>
-        </div>
-        
-        <div class="game-card">
-            <a href="Hill%20Climb%20Racing%20Lite.html">Hill Climb Racing</a>
-        </div>
-        
-        <div class="game-card">
-            <a href="Ragdoll%20Archers.html">Ragdoll Archers</a>
-        </div>
-        
-        <div class="game-card">
-            <a href="Red%20Ball%204.html">Red Ball 4</a>
-        </div>
-        
-        <div class="game-card">
-            <a href="BitLife.html">BitLife</a>
-        </div>
+        <div class="game-card"><a href="War%20The%20Knights%20(2).html">War The Knights</a></div>
+        <div class="game-card"><a href="Hill%20Climb%20Racing%20Lite.html">Hill Climb Racing</a></div>
+        <div class="game-card"><a href="Ragdoll%20Archers.html">Ragdoll Archers</a></div>
+        <div class="game-card"><a href="Red%20Ball%204.html">Red Ball 4</a></div>
+        <div class="game-card"><a href="BitLife.html">BitLife</a></div>
+
+        <div class="game-card"><a href="Time%20Shooter%202.html">Time Shooter 2</a></div>
+        <div class="game-card"><a href="Granny.html">Granny</a></div>
+        <div class="game-card"><a href="Five%20Nights%20at%20Freddy's.html">Five Nights at Freddy's</a></div>
+        <div class="game-card"><a href="DOOM.html">DOOM</a></div>
+        <div class="game-card"><a href="Crazy%20Kitty%203D.html">Crazy Kitty 3D</a></div>
+        <div class="game-card"><a href="Crazy%20Chicken%203D.html">Crazy Chicken 3D</a></div>
+        <div class="game-card"><a href="Crazy%20Cattle%203D.html">Crazy Cattle 3D</a></div>
+        <div class="game-card"><a href="Class%20of%20'09.html">Class of '09</a></div>
+        <div class="game-card"><a href="Baldi's%20Basics.html">Baldi's Basics</a></div>
+        <div class="game-card"><a href="Backrooms.html">Backrooms</a></div>
+
+        <div class="game-card"><a href="Time%20Shooter%203_%20SWAT.html">Time Shooter 3: SWAT</a></div>
+        <div class="game-card"><a href="Gladihoppers.html">Gladihoppers</a></div>
+        <div class="game-card"><a href="1v1.LoL.html">1v1.LoL</a></div>
     </div>
 
 </body>
